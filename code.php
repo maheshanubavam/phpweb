@@ -52,4 +52,3 @@ try {
 
 $conn = null;
 ?>
-test
