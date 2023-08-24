@@ -1,15 +1,17 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Vendor\\Namespace\\": "src/",
-            "": "src/",
-        },
-        "psr-0": {
-            "Vendor\\Namespace\\": "src/",
-            "Vendor_Namespace_": "src/"
-        },
-        "classmap": ["src/", "lib/", "Something.php"],
-        "exclude-from-classmap": ["/src/Tests/", "/lib/tests/"],
-        "files": [],
+    "name": "your-username/your-project",
+    "description": "A sample project with Composer dependencies",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "symfony/yaml": "^5.0",
+        "guzzlehttp/guzzle": "^7.0"
     }
 }
